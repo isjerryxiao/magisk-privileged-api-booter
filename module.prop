@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
+id=privileged-api-booter
+name=Privileged Api Booter
+version=1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=simonsmh
+description=Privileged Api Booter
 template=3

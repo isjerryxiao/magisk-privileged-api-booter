@@ -26,7 +26,7 @@
 AUTOMOUNT=false
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=true

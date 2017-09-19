@@ -7,7 +7,7 @@ It supports **brevent** and **shizuku server** by using shell to start services.
 
 * You should use latest Magisk Manager to install this module. If you meet any problem under installation from Magisk Manager, please try to install it from recovery.
 * Recent fixes:
-Magisk v14 Template 1400 compatabilities
+Debug info for Brevent
 
 #### Credit & Support
 

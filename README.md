@@ -1,3 +1,13 @@
+#### 提权API启动挂钩
+
+目前支持Brevent和Shizuku server的开机启动。类ADB的shell方式启动，更省资源，更少发热，免去误操作禁用自启项的烦扰。
+
+#### 注意事项
+
+* 请使用最新的Magisk来安装此模块
+* 最近更新:
+Debug info for Brevent 
+
 #### Privileged Api Booter
 
 This module has a tiny hook to make privileged api software to run on startup.

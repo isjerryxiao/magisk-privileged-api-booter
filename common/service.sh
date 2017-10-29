@@ -14,15 +14,9 @@ ln -sf /system/bin/app_process32 /data/local/tmp/app_process
 fi
 PATH=/data/local/tmp:$PATH
 { #brevent
-exec $(dumpsys package me.piebridge.brevent | grep legacyNativeLibraryDir | cut -b 28-)/*/libbrevent.so &
+exec $(dumpsys package me.piebridge.brevent | grep legacyNativeLibraryDir | cut -b 28-)/*/libbrevent.so
 } &
 { #shizuku
-export CLASSPATH=$(dumpsys package moe.shizuku.privileged.api | grep path | cut -b 13-)
-until $(ifconfig | grep -q tun0) || $(ifconfig | grep -q wlan0) || $(ifconfig | grep -q data0) || [ $i = 24 ]
-do
-sleep 5
-((i++))
-done
-exec app_process /system/bin --nice-name=rikka_server moe.shizuku.server.Server &
+app_process -Djava.class.path=/storage/emulated/0/Android/data/moe.shizuku.privileged.api/files/server-`getprop ro.build.version.sdk`.dex /system/bin --nice-name=shizuku_server moe.shizuku.server.ShizukuServer
 } &
 

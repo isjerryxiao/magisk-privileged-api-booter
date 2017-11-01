@@ -6,7 +6,7 @@
 
 * 请使用最新的Magisk来安装此模块
 * 最近更新:
-Debug info for Brevent 
+Update for Shizuku
 
 #### Privileged Api Booter
 
@@ -17,7 +17,7 @@ It supports **brevent** and **shizuku server** by using shell to start services.
 
 * You should use latest Magisk Manager to install this module. If you meet any problem under installation from Magisk Manager, please try to install it from recovery.
 * Recent fixes:
-Debug info for Brevent
+Update for Shizuku
 
 #### Credit & Support
 

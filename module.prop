@@ -1,6 +1,6 @@
 id=privileged-api-booter
 name=Privileged Api Booter
-version=1.4
+version=1.4.1
 versionCode=5
 author=simonsmh
 description=Privileged Api Booter for Brevent and Shizuku Server.

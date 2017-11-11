@@ -17,6 +17,6 @@ PATH=/data/local/tmp:$PATH
 exec $(dumpsys package me.piebridge.brevent | grep legacyNativeLibraryDir | cut -b 28-)/*/libbrevent.so
 } &
 { #shizuku
-exec app_process -Djava.class.path=/storage/emulated/0/Android/data/moe.shizuku.privileged.api/files/server-`getprop ro.build.version.sdk`.dex /system/bin --nice-name=shizuku_server moe.shizuku.server.ShizukuServer
+sh /sdcard/Android/data/moe.shizuku.privileged.api/files/start.sh
 } &
 

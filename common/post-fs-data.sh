@@ -5,6 +5,9 @@ MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
 # More info in the main Magisk thread
-magiskpolicy --live "allow system_server su fifo_file write"
-magiskpolicy --live "allow audioserver su fd use"
-magiskpolicy --live "allow audioserver su fifo_file write"
+supolicy --live "allow system_server su fifo_file write"
+supolicy --live "allow audioserver su fd use"
+supolicy --live "allow audioserver su fifo_file write"
+supolicy --live "allow untrusted_app default_android_serice service_manager find"
+supolicy --live "allow untrusted_app su binder transfer"
+supolicy --live "allow untrusted_app su binder call"

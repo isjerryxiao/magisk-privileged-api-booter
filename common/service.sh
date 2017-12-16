@@ -22,5 +22,5 @@ exec $(dumpsys package me.piebridge.brevent | grep legacyNativeLibraryDir | cut 
 sh /sdcard/Android/data/moe.shizuku.privileged.api/files/start.sh
 } &
 { #storage redirect
-#sh /data/data/moe.shizuku.redirectstorage/files/start.sh
+sh /data/data/moe.shizuku.redirectstorage/files/start.sh
 } &

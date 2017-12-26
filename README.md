@@ -11,13 +11,13 @@ Bring up Storage Redirect
 #### Privileged Api Booter
 
 This module has a tiny hook to make privileged api software to run on startup.
-It supports **brevent**, **Shizuku Server**, **Storage Redirect** by using shell to start services.
+It supports **Brevent**, **Shizuku Server**, **Storage Redirect** by using shell to start services.
 
 #### NOTICE
 
 * You should use latest Magisk Manager to install this module. If you meet any problem under installation from Magisk Manager, please try to install it from recovery.
 * Recent fixes:
-Bring up Storage Redirect
+Magisk v15 Template 1500 compatabilities
 
 #### Credit & Support
 

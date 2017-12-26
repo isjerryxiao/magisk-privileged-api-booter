@@ -4,4 +4,4 @@ version=1.5
 versionCode=8
 author=simonsmh
 description=Privileged Api Booter for Brevent, Shizuku Server and Storage Redirect.
-template=1400
+minMagisk=1500

@@ -16,7 +16,7 @@ ln -sf /system/bin/app_process32 /data/local/tmp/app_process
 fi
 PATH=/data/local/tmp:$PATH
 { #brevent server
-exec $(dumpsys package me.piebridge.brevent | grep legacyNativeLibraryDir | cut -b 28-)/*/libbrevent.so
+sh /data/data/me.piebridge.brevent/brevent.sh
 } &
 { #shizuku server
 sh /sdcard/Android/data/moe.shizuku.privileged.api/files/start.sh

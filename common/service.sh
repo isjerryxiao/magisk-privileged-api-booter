@@ -19,7 +19,7 @@ PATH=/data/local/tmp:$PATH
 #sh /data/data/me.piebridge.brevent/brevent.sh
 #} &
 { #shizuku server
-sh /sdcard/Android/data/moe.shizuku.privileged.api/files/start.sh
+cat /sdcard/Android/data/moe.shizuku.privileged.api/files/start.sh |/system/bin/sh
 } &
 #{ #storage redirect
 #sh /data/data/moe.shizuku.redirectstorage/files/start.sh
